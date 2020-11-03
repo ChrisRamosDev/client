@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&family=Roboto&display=swap");
+
+@import "./reset";
+@import "./design";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Dosis", sans-serif;
+}
