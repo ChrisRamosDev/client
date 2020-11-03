@@ -20,10 +20,10 @@ const Message = ({ message: { user, text }, name }) => {
     </div>
   ) : (
     <div className='msg-outer-wrapper received'>
+      <p className='msg-user'>{user}</p>
       <div className='msg-inner-wrapper'>
         <p className='message'>{text}</p>
       </div>
-      <p className='msg-user'>{user}</p>
       <small className='time'>{dayjs().format("h:mma")}</small>
     </div>
   );
